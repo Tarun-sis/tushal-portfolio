@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d0f1a"/>
+      <stop offset="100%" stop-color="#161929"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e2235"/>
+      <stop offset="100%" stop-color="#161929"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <!-- Nav bar -->
+  <rect x="0" y="0" width="1200" height="56" fill="#0d0f1a" opacity="0.8"/>
+  <circle cx="30" cy="28" r="10" fill="#3b82f6"/>
+  <text x="50" y="33" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#e9ebf0">CivicLens AI</text>
+  <rect x="980" y="18" width="80" height="24" rx="6" fill="#3b82f6" opacity="0.2"/>
+  <text x="1005" y="34" font-family="Inter,sans-serif" font-size="11" fill="#60a5fa" text-anchor="middle">Dashboard</text>
+  <rect x="1070" y="18" width="90" height="24" rx="6" fill="none" stroke="#1e2235" stroke-width="1"/>
+  <text x="1115" y="34" font-family="Inter,sans-serif" font-size="11" fill="#a8b0c4" text-anchor="middle">Report Issue</text>
+
+  <!-- Main content area -->
+  <!-- Left: Priority cards -->
+  <rect x="24" y="80" width="350" height="640" rx="12" fill="url(#card)" stroke="#1e2235" stroke-width="1"/>
+  <text x="44" y="110" font-family="Inter,sans-serif" font-size="14" font-weight="600" fill="#e9ebf0">Priority Issues</text>
+  <rect x="44" y="124" width="60" height="20" rx="10" fill="#ef4444" opacity="0.15"/>
+  <text x="74" y="138" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#f87171" text-anchor="middle">Urgent</text>
+
+  <!-- Priority card 1 -->
+  <rect x="44" y="156" width="310" height="80" rx="8" fill="#0d0f1a" stroke="#1e2235" stroke-width="1"/>
+  <rect x="56" y="168" width="100" height="14" rx="3" fill="#3b82f6" opacity="0.6"/>
+  <rect x="56" y="190" width="200" height="10" rx="3" fill="#1e2235"/>
+  <rect x="56" y="206" width="160" height="10" rx="3" fill="#1e2235"/>
+  <rect x="280" y="168" width="60" height="20" rx="6" fill="#ef4444" opacity="0.15"/>
+  <text x="310" y="182" font-family="Inter,sans-serif" font-size="9" fill="#f87171" text-anchor="middle">High</text>
+
+  <!-- Priority card 2 -->
+  <rect x="44" y="248" width="310" height="80" rx="8" fill="#0d0f1a" stroke="#1e2235" stroke-width="1"/>
+  <rect x="56" y="260" width="120" height="14" rx="3" fill="#06b6d4" opacity="0.6"/>
+  <rect x="56" y="282" width="180" height="10" rx="3" fill="#1e2235"/>
+  <rect x="56" y="298" width="140" height="10" rx="3" fill="#1e2235"/>
+  <rect x="280" y="260" width="60" height="20" rx="6" fill="#f59e0b" opacity="0.15"/>
+  <text x="310" y="274" font-family="Inter,sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle">Med</text>
+
+  <!-- Priority card 3 -->
+  <rect x="44" y="340" width="310" height="80" rx="8" fill="#0d0f1a" stroke="#1e2235" stroke-width="1"/>
+  <rect x="56" y="352" width="90" height="14" rx="3" fill="#10b981" opacity="0.6"/>
+  <rect x="56" y="374" width="170" height="10" rx="3" fill="#1e2235"/>
+  <rect x="56" y="390" width="130" height="10" rx="3" fill="#1e2235"/>
+  <rect x="280" y="352" width="60" height="20" rx="6" fill="#10b981" opacity="0.15"/>
+  <text x="310" y="366" font-family="Inter,sans-serif" font-size="9" fill="#34d399" text-anchor="middle">Low</text>
+
+  <!-- Priority card 4 -->
+  <rect x="44" y="432" width="310" height="80" rx="8" fill="#0d0f1a" stroke="#1e2235" stroke-width="1"/>
+  <rect x="56" y="444" width="110" height="14" rx="3" fill="#3b82f6" opacity="0.6"/>
+  <rect x="56" y="466" width="190" height="10" rx="3" fill="#1e2235"/>
+  <rect x="56" y="482" width="150" height="10" rx="3" fill="#1e2235"/>
+
+  <!-- Center: Map area -->
+  <rect x="390" y="80" width="540" height="420" rx="12" fill="url(#card)" stroke="#1e2235" stroke-width="1"/>
+  <text x="410" y="110" font-family="Inter,sans-serif" font-size="14" font-weight="600" fill="#e9ebf0">Delhi Civic Map</text>
+  <!-- Map background -->
+  <rect x="410" y="128" width="500" height="356" rx="8" fill="#0d0f1a"/>
+  <!-- Grid lines suggesting a map -->
+  <line x1="410" y1="200" x2="910" y2="200" stroke="#1e2235" stroke-width="1"/>
+  <line x1="410" y1="280" x2="910" y2="280" stroke="#1e2235" stroke-width="1"/>
+  <line x1="410" y1="360" x2="910" y2="360" stroke="#1e2235" stroke-width="1"/>
+  <line x1="510" y1="128" x2="510" y2="484" stroke="#1e2235" stroke-width="1"/>
+  <line x1="610" y1="128" x2="610" y2="484" stroke="#1e2235" stroke-width="1"/>
+  <line x1="710" y1="128" x2="710" y2="484" stroke="#1e2235" stroke-width="1"/>
+  <line x1="810" y1="128" x2="810" y2="484" stroke="#1e2235" stroke-width="1"/>
+  <!-- Issue markers -->
+  <circle cx="480" cy="170" r="12" fill="#ef4444" opacity="0.8"/>
+  <circle cx="480" cy="170" r="6" fill="#ef4444"/>
+  <circle cx="650" cy="230" r="10" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="650" cy="230" r="5" fill="#f59e0b"/>
+  <circle cx="780" cy="180" r="10" fill="#ef4444" opacity="0.8"/>
+  <circle cx="780" cy="180" r="5" fill="#ef4444"/>
+  <circle cx="560" cy="340" r="10" fill="#10b981" opacity="0.8"/>
+  <circle cx="560" cy="340" r="5" fill="#10b981"/>
+  <circle cx="840" cy="380" r="10" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="840" cy="380" r="5" fill="#f59e0b"/>
+  <circle cx="460" cy="420" r="10" fill="#10b981" opacity="0.8"/>
+  <circle cx="460" cy="420" r="5" fill="#10b981"/>
+  <circle cx="720" cy="440" r="10" fill="#ef4444" opacity="0.8"/>
+  <circle cx="720" cy="440" r="5" fill="#ef4444"/>
+
+  <!-- Right: Stats -->
+  <rect x="950" y="80" width="226" height="200" rx="12" fill="url(#card)" stroke="#1e2235" stroke-width="1"/>
+  <text x="970" y="110" font-family="Inter,sans-serif" font-size="14" font-weight="600" fill="#e9ebf0">Reports</text>
+  <text x="970" y="160" font-family="Inter,sans-serif" font-size="36" font-weight="700" fill="#3b82f6">127</text>
+  <text x="970" y="180" font-family="Inter,sans-serif" font-size="11" fill="#a8b0c4">Total Issues</text>
+  <line x1="970" y1="196" x2="1156" y2="196" stroke="#1e2235" stroke-width="1"/>
+  <text x="970" y="222" font-family="Inter,sans-serif" font-size="20" font-weight="600" fill="#f87171">42</text>
+  <text x="1010" y="222" font-family="Inter,sans-serif" font-size="11" fill="#a8b0c4">Urgent</text>
+  <text x="1090" y="222" font-family="Inter,sans-serif" font-size="20" font-weight="600" fill="#fbbf24">35</text>
+  <text x="1110" y="222" font-family="Inter,sans-serif" font-size="11" fill="#a8b0c4">Medium</text>
+  <text x="970" y="252" font-family="Inter,sans-serif" font-size="20" font-weight="600" fill="#34d399">50</text>
+  <text x="1010" y="252" font-family="Inter,sans-serif" font-size="11" fill="#a8b0c4">Resolved</text>
+
+  <!-- Recent reports section -->
+  <rect x="950" y="300" width="226" height="200" rx="12" fill="url(#card)" stroke="#1e2235" stroke-width="1"/>
+  <text x="970" y="330" font-family="Inter,sans-serif" font-size="14" font-weight="600" fill="#e9ebf0">Recent Reports</text>
+  <rect x="970" y="346" width="186" height="22" rx="4" fill="#0d0f1a"/>
+  <circle cx="982" cy="357" r="5" fill="#ef4444"/>
+  <rect x="994" y="352" width="100" height="10" rx="2" fill="#1e2235"/>
+  <rect x="970" y="376" width="186" height="22" rx="4" fill="#0d0f1a"/>
+  <circle cx="982" cy="387" r="5" fill="#f59e0b"/>
+  <rect x="994" y="382" width="120" height="10" rx="2" fill="#1e2235"/>
+  <rect x="970" y="406" width="186" height="22" rx="4" fill="#0d0f1a"/>
+  <circle cx="982" cy="417" r="5" fill="#10b981"/>
+  <rect x="994" y="412" width="80" height="10" rx="2" fill="#1e2235"/>
+  <rect x="970" y="436" width="186" height="22" rx="4" fill="#0d0f1a"/>
+  <circle cx="982" cy="447" r="5" fill="#ef4444"/>
+  <rect x="994" y="442" width="110" height="10" rx="2" fill="#1e2235"/>
+
+  <!-- Bottom: Reports chart -->
+  <rect x="390" y="516" width="786" height="204" rx="12" fill="url(#card)" stroke="#1e2235" stroke-width="1"/>
+  <text x="410" y="546" font-family="Inter,sans-serif" font-size="14" font-weight="600" fill="#e9ebf0">Civic Reports Overview</text>
+  <!-- Bar chart -->
+  <rect x="430" y="600" width="40" height="80" rx="4" fill="#3b82f6" opacity="0.6"/>
+  <rect x="490" y="580" width="40" height="100" rx="4" fill="#3b82f6" opacity="0.6"/>
+  <rect x="550" y="620" width="40" height="60" rx="4" fill="#06b6d4" opacity="0.6"/>
+  <rect x="610" y="560" width="40" height="120" rx="4" fill="#3b82f6" opacity="0.6"/>
+  <rect x="670" y="590" width="40" height="90" rx="4" fill="#06b6d4" opacity="0.6"/>
+  <rect x="730" y="610" width="40" height="70" rx="4" fill="#10b981" opacity="0.6"/>
+  <rect x="790" y="570" width="40" height="110" rx="4" fill="#3b82f6" opacity="0.6"/>
+  <rect x="850" y="600" width="40" height="80" rx="4" fill="#06b6d4" opacity="0.6"/>
+  <rect x="910" y="630" width="40" height="50" rx="4" fill="#10b981" opacity="0.6"/>
+  <rect x="970" y="580" width="40" height="100" rx="4" fill="#3b82f6" opacity="0.6"/>
+  <rect x="1030" y="610" width="40" height="70" rx="4" fill="#06b6d4" opacity="0.6"/>
+  <rect x="1090" y="590" width="40" height="90" rx="4" fill="#3b82f6" opacity="0.6"/>
+
+  <!-- Placeholder notice -->
+  <text x="600" y="735" font-family="Inter,sans-serif" font-size="12" fill="#5a6585" text-anchor="middle" opacity="0.5">Illustrative preview — replace with genuine screenshot</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="urban-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f3eee5"/>
+      <stop offset="1" stop-color="#e8dfd1"/>
+    </linearGradient>
+    <linearGradient id="urban-window" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#c8d8d3"/>
+      <stop offset=".55" stop-color="#e9e3d5"/>
+      <stop offset="1" stop-color="#b1c0b7"/>
+    </linearGradient>
+    <linearGradient id="urban-sofa" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#b9a994"/>
+      <stop offset="1" stop-color="#95836f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="#f4f0e8"/>
+  <rect x="28" y="24" width="1144" height="702" rx="18" fill="#f8f5ef" stroke="#4a4035" stroke-opacity=".15"/>
+  <path d="M28 76h1144" stroke="#4a4035" stroke-opacity=".13"/>
+  <circle cx="54" cy="50" r="5" fill="#d98f7a"/>
+  <circle cx="72" cy="50" r="5" fill="#d5b56f"/>
+  <circle cx="90" cy="50" r="5" fill="#8ca98f"/>
+  <rect x="456" y="38" width="288" height="24" rx="7" fill="#4a4035" fill-opacity=".055"/>
+  <text x="600" y="54" fill="#74695e" font-family="Arial,sans-serif" font-size="11" text-anchor="middle">urbannest-studio.vercel.app</text>
+  <text x="72" y="122" fill="#44382e" font-family="Georgia,serif" font-size="24">UrbanNest Studio</text>
+  <text x="727" y="117" fill="#74695e" font-family="Arial,sans-serif" font-size="12">Studio</text>
+  <text x="786" y="117" fill="#74695e" font-family="Arial,sans-serif" font-size="12">Spaces</text>
+  <text x="851" y="117" fill="#74695e" font-family="Arial,sans-serif" font-size="12">Journal</text>
+  <rect x="928" y="98" width="184" height="36" rx="18" fill="#4a4035"/>
+  <text x="1020" y="121" fill="#f6f1e9" font-family="Arial,sans-serif" font-size="11" text-anchor="middle">Explore the studio ↗</text>
+  <rect x="58" y="157" width="1084" height="452" rx="12" fill="url(#urban-wall)"/>
+  <path d="M58 518h1084v91H58z" fill="#c8b9a5"/>
+  <path d="M58 545h1084v64H58z" fill="#b7a58e" opacity=".48"/>
+  <rect x="823" y="187" width="247" height="278" rx="3" fill="#e6dfd2" stroke="#887965" stroke-opacity=".4" stroke-width="5"/>
+  <rect x="840" y="204" width="213" height="244" fill="url(#urban-window)"/>
+  <path d="M946 204v244M840 327h213" stroke="#f2eee6" stroke-width="10"/>
+  <path d="M850 444c34-45 52-77 94-95s71 4 103-44v143H850z" fill="#718c7e" opacity=".38"/>
+  <path d="M840 446c50-18 80-8 111-24 42-22 70-21 102-13v39H840z" fill="#a2ad97" opacity=".65"/>
+  <rect x="92" y="181" width="194" height="318" rx="96" fill="#d8caba"/>
+  <rect x="110" y="198" width="158" height="281" rx="80" fill="#f0e9de"/>
+  <rect x="128" y="216" width="122" height="245" rx="61" fill="#d5ddd2"/>
+  <path d="M143 439c28-88 65-143 111-184v206H143z" fill="#879782" opacity=".4"/>
+  <rect x="310" y="266" width="335" height="169" rx="42" fill="url(#urban-sofa)"/>
+  <rect x="328" y="246" width="299" height="80" rx="30" fill="#c8b8a3"/>
+  <rect x="323" y="318" width="309" height="91" rx="25" fill="#aa9881"/>
+  <path d="M352 326v65M463 326v65M572 326v65" stroke="#d8c9b5" stroke-opacity=".55" stroke-width="2"/>
+  <rect x="292" y="399" width="28" height="62" rx="6" fill="#756754"/>
+  <rect x="626" y="399" width="28" height="62" rx="6" fill="#756754"/>
+  <rect x="390" y="426" width="187" height="20" rx="10" fill="#806c55"/>
+  <path d="M406 444v34M561 444v34" stroke="#695741" stroke-width="7"/>
+  <ellipse cx="492" cy="426" rx="96" ry="16" fill="#a58e72"/>
+  <rect x="451" y="403" width="79" height="22" rx="10" fill="#e9dfd1"/>
+  <path d="M490 401c-5-36-2-62 3-86M493 373c-28-16-40-35-45-55M494 357c20-20 38-33 60-37" fill="none" stroke="#586d57" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="448" cy="314" rx="22" ry="10" transform="rotate(30 448 314)" fill="#81937c"/>
+  <ellipse cx="554" cy="320" rx="24" ry="10" transform="rotate(-28 554 320)" fill="#73876f"/>
+  <ellipse cx="489" cy="294" rx="10" ry="24" fill="#87977d"/>
+  <rect x="704" y="391" width="58" height="80" rx="20" fill="#84745f"/>
+  <path d="M711 399c10-46 29-65 46-82M734 411c-18-34-30-48-46-55M740 410c14-32 24-46 38-59" fill="none" stroke="#61755f" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="690" cy="353" rx="22" ry="10" transform="rotate(40 690 353)" fill="#87987d"/>
+  <ellipse cx="784" cy="352" rx="22" ry="10" transform="rotate(-38 784 352)" fill="#7b9074"/>
+  <ellipse cx="749" cy="331" rx="11" ry="22" fill="#91a187"/>
+  <rect x="782" y="461" width="22" height="47" rx="4" fill="#594c3e"/>
+  <path d="M776 464h34l-5 18h-24z" fill="#a8835f"/>
+  <rect x="75" y="629" width="1050" height="70" rx="10" fill="#eee8dd"/>
+  <text x="94" y="655" fill="#8a7965" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">THOUGHTFUL INTERIORS · CONSIDERED LIVING</text>
+  <text x="94" y="681" fill="#44382e" font-family="Georgia,serif" font-size="22">A softer way to feel at home.</text>
+  <text x="1030" y="674" fill="#786b5b" font-family="Arial,sans-serif" font-size="11" text-anchor="end">Original preview illustration</text>
+</svg>

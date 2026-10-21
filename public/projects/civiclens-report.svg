@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d0f1a"/>
+      <stop offset="100%" stop-color="#161929"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg3)"/>
+  <!-- Nav bar -->
+  <rect x="0" y="0" width="1200" height="56" fill="#0d0f1a" opacity="0.8"/>
+  <circle cx="30" cy="28" r="10" fill="#3b82f6"/>
+  <text x="50" y="33" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#e9ebf0">CivicLens AI</text>
+  <rect x="980" y="18" width="80" height="24" rx="6" fill="none" stroke="#1e2235"/>
+  <text x="1020" y="34" font-family="Inter,sans-serif" font-size="11" fill="#a8b0c4" text-anchor="middle">Dashboard</text>
+  <rect x="1070" y="18" width="90" height="24" rx="6" fill="#3b82f6" opacity="0.2"/>
+  <text x="1115" y="34" font-family="Inter,sans-serif" font-size="11" fill="#60a5fa" text-anchor="middle">Report Issue</text>
+
+  <!-- Form container -->
+  <rect x="350" y="100" width="500" height="580" rx="16" fill="#161929" stroke="#1e2235" stroke-width="1"/>
+  <text x="380" y="140" font-family="Inter,sans-serif" font-size="20" font-weight="700" fill="#e9ebf0">Report a Civic Issue</text>
+  <text x="380" y="162" font-family="Inter,sans-serif" font-size="12" fill="#a8b0c4">Help improve your community by reporting local problems</text>
+
+  <!-- Title field -->
+  <text x="380" y="200" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#e9ebf0">Issue Title</text>
+  <rect x="380" y="210" width="440" height="40" rx="8" fill="#0d0f1a" stroke="#1e2235" stroke-width="1"/>
+  <rect x="392" y="222" width="180" height="12" rx="3" fill="#1e2235"/>
+
+  <!-- Category select -->
+  <text x="380" y="280" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#e9ebf0">Category</text>
+  <rect x="380" y="290" width="210" height="40" rx="8" fill="#0d0f1a" stroke="#1e2235"/>
+  <rect x="392" y="302" width="100" height="12" rx="3" fill="#1e2235"/>
+  <path d="M 572 305 L 578 311 L 584 305" stroke="#a8b0c4" stroke-width="1.5" fill="none"/>
+
+  <!-- Priority select -->
+  <text x="610" y="280" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#e9ebf0">Priority Level</text>
+  <rect x="610" y="290" width="210" height="40" rx="8" fill="#0d0f1a" stroke="#1e2235"/>
+  <rect x="622" y="302" width="60" height="12" rx="3" fill="#ef4444" opacity="0.5"/>
+  <path d="M 802 305 L 808 311 L 814 305" stroke="#a8b0c4" stroke-width="1.5" fill="none"/>
+
+  <!-- Category chips -->
+  <rect x="380" y="350" width="80" height="28" rx="14" fill="#3b82f6" opacity="0.15"/>
+  <circle cx="396" cy="364" r="5" fill="#3b82f6"/>
+  <text x="430" y="368" font-family="Inter,sans-serif" font-size="10" fill="#60a5fa">Pothole</text>
+  <rect x="470" y="350" width="80" height="28" rx="14" fill="none" stroke="#1e2235"/>
+  <circle cx="486" cy="364" r="5" fill="#f59e0b"/>
+  <text x="520" y="368" font-family="Inter,sans-serif" font-size="10" fill="#a8b0c4">Garbage</text>
+  <rect x="560" y="350" width="100" height="28" rx="14" fill="none" stroke="#1e2235"/>
+  <circle cx="576" cy="364" r="5" fill="#ef4444"/>
+  <text x="610" y="368" font-family="Inter,sans-serif" font-size="10" fill="#a8b0c4">Road Damage</text>
+  <rect x="670" y="350" width="110" height="28" rx="14" fill="none" stroke="#1e2235"/>
+  <circle cx="686" cy="364" r="5" fill="#06b6d4"/>
+  <text x="730" y="368" font-family="Inter,sans-serif" font-size="10" fill="#a8b0c4">Streetlight</text>
+
+  <!-- Description -->
+  <text x="380" y="410" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#e9ebf0">Description</text>
+  <rect x="380" y="420" width="440" height="100" rx="8" fill="#0d0f1a" stroke="#1e2235"/>
+  <rect x="392" y="434" width="300" height="10" rx="2" fill="#1e2235"/>
+  <rect x="392" y="450" width="380" height="10" rx="2" fill="#1e2235"/>
+  <rect x="392" y="466" width="250" height="10" rx="2" fill="#1e2235"/>
+
+  <!-- Location -->
+  <text x="380" y="552" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#e9ebf0">Location</text>
+  <rect x="380" y="562" width="440" height="40" rx="8" fill="#0d0f1a" stroke="#1e2235"/>
+  <circle cx="396" cy="582" r="6" fill="#3b82f6" opacity="0.6"/>
+  <rect x="410" y="576" width="200" height="12" rx="3" fill="#1e2235"/>
+
+  <!-- Submit button -->
+  <rect x="380" y="624" width="440" height="44" rx="10" fill="#3b82f6"/>
+  <text x="600" y="651" font-family="Inter,sans-serif" font-size="14" font-weight="600" fill="white" text-anchor="middle">Submit Report</text>
+
+  <text x="600" y="735" font-family="Inter,sans-serif" font-size="12" fill="#5a6585" text-anchor="middle" opacity="0.5">Illustrative preview — replace with genuine screenshot</text>
+</svg>
